@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import {getProfileData, getSocialLinks} from "@/app/utils/configManager";
+import Link from "next/link";
 
 export default function Home() {
     const configProfile = getProfileData();
@@ -57,7 +58,9 @@ export default function Home() {
                               <span className="text-gray-600">## </span>Navigation
                           </h2>
                           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-4">
-                              <div className="bg-gray-800 border border-gray-600 rounded-lg p-4">
+                              <Link
+                                  href="/profile"
+                                  className="bg-gray-800 border border-gray-600 rounded-lg p-4">
                                   <h3 className="text-yellow-400 font-semibold mb-2 text-sm">./profile</h3>
                                   <div className="flex flex-wrap gap-1text-xs">
                                       <span
@@ -66,8 +69,9 @@ export default function Home() {
                                         Pour en savoir plus sur moi
                                       </span>
                                   </div>
-                              </div>
-                              <div className="bg-gray-800 border border-gray-600 rounded-lg p-4">
+                              </Link>
+                              <Link href="/xp"
+                                  className="bg-gray-800 border border-gray-600 rounded-lg p-4">
                                   <h3 className="text-yellow-400 font-semibold mb-2 text-sm">./xp</h3>
                                   <div className="flex flex-wrap gap-1text-xs">
                                       <span
@@ -76,7 +80,7 @@ export default function Home() {
                                         Pour en savoir plus sur mon parcours
                                       </span>
                                   </div>
-                              </div>
+                              </Link>
                           </div>
                       </div>
                       <div className="mb-8">
