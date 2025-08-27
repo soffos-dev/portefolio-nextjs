@@ -80,7 +80,7 @@ export const profilConfig: ProfileConfig = {
         name: "Sophie",
         username: "sophie",
         title: "Full stack developpeuse",
-        description: "Développeuse web Fullstack.",
+        description: "Développeuse web fullstack en recherche de nouveau défi !",
         bio: "full bullshit",
         image: "",
         website: "http://localhost:3000/",

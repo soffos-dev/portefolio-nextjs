@@ -115,8 +115,8 @@ export default function Profile() {
                                                         key={skillIndex}
                                                         className="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs"
                                                     >
-                        {skill}
-                    </span>
+                                                        {skill}
+                                                    </span>
                                                 ))}
                                             </div>
                                         </div>
