@@ -99,7 +99,7 @@ export const profilConfig: ProfileConfig = {
 
     skills: {
         language: [
-            'JavaScript', "TypeScript", "PHP", "HTML5", "CSS3", "SQL"
+            "PHP", "JavaScript", "TypeScript", "HTML5", "CSS3", "SQL"
         ],
         framework: [
             "Symfony", "Laravel", "React", "NextJS"
